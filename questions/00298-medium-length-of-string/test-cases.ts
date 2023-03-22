@@ -1,8 +1,8 @@
 import type { Equal, Expect } from '@type-challenges/utils'
 
 type cases = [
-  Expect<Equal<LengthOfString<''>, 0>>,
-  Expect<Equal<LengthOfString<'kumiko'>, 6>>,
-  Expect<Equal<LengthOfString<'reina'>, 5>>,
-  Expect<Equal<LengthOfString<'Sound! Euphonium'>, 16>>,
+  Expect<Equal<TLengthOfString<''>, 0>>,
+  Expect<Equal<TLengthOfString<'kumiko'>, 6>>,
+  Expect<Equal<TLengthOfString<'reina'>, 5>>,
+  Expect<Equal<TLengthOfString<'Sound! Euphonium'>, 16>>,
 ]
